@@ -20,4 +20,61 @@
 - 🐛 **Bug Detection** — Identifies potential errors and bugs in your code
 - 🔒 **Security Analysis** — Detects security vulnerabilities like SQL Injection, XSS, and more
 - 📖 **Readability Review** — Checks code readability and best practices
-- ⚡ **Performance Tips** — Suggests more eff
+- ⚡ **Performance Tips** — Suggests more efficient approaches
+- ✅ **Improvement Suggestions** — Provides refactored code examples
+- 🌐 **Multi-language Support** — Supports 10 programming languages
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| **Python** | Core language |
+| **Streamlit** | Frontend UI |
+| **Groq API** | AI inference engine |
+| **LLaMA 3.3 70B** | Language model |
+| **Prompt Engineering** | AI behavior design |
+| **python-dotenv** | Environment management |
+
+---
+
+## 🌐 Supported Languages
+
+`Python` `JavaScript` `TypeScript` `Java` `C++` `PHP` `Go` `Rust` `Kotlin` `Swift`
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Python 3.10+
+- Groq API Key ([Get it here](https://console.groq.com))
+
+### Installation
+
+```bash
+git clone https://github.com/fahrihamd1/AI-Code-Reviewer.git
+cd AI-Code-Reviewer
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+### Configuration
+
+Create a `.env` file:
+
+```env
+GROQ_API_KEY=your_groq_api_key_here
+```
+
+### Run
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## 📁 Project Structure
